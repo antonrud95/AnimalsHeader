@@ -2,29 +2,15 @@ body {
 margin: 0;
 font-family: 'Georgia', sans-serif;
 }
-      
-      
+        
 * {
 box-sizing: border-box;
-}
-      
-.container {
-width: 100%;
-max-width: 1170px;
-padding: 0;
 }
 
 /* Header */
 
 .header {
-    display: flex;
-    align-items: center;
-    height: 152px;
-    position: absolute;
-    width: 100%;
-    top: 0;
-    left: 0;
-    z-index: 1000;
+    background: url(..//img/bgheader.jpg) center no-repeat / cover;
 }
 
 .headerlogo__title {
@@ -44,19 +30,11 @@ padding: 0;
 }
 
 
-/* Button */
-.button__header {
-    padding: 0;
-    border: 0;
-}
-
-
 /* Navigation */
 
 .navbar__container {
     display: flex;
     justify-content: space-between;
-    padding: 0;
     
 }
 
@@ -88,15 +66,10 @@ padding: 0;
 
 
 /* Intro */
-
 .intro {
-    padding-top: 368px;
-    width: 100%;
-    height: 925px;
-    background: url(..//img/bgheader.jpg) center no-repeat / cover;
-    
+    margin-top: 200px;
+    padding-bottom: 200px;
 }
-
 
 .intro__title {
     font-size: 44px;
@@ -127,10 +100,5 @@ padding: 0;
     border-radius: 40px;
     padding: 18px 45px;
 
-}
-
-.intro__btn:hover {
-    cursor: pointer;
-    
 }
 
