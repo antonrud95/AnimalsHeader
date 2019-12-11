@@ -102,3 +102,36 @@ box-sizing: border-box;
 
 }
 
+
+
+/* About the shelter */
+
+.section {
+    background-color: #fafafa;
+}
+
+
+
+.shelter {
+    padding-top: 90px;
+    padding-bottom: 90px;
+    
+    
+}
+
+.shelter__title {
+    font-family: 'Georgia', sans-serif;
+    font-size: 35px;
+    font-weight: 400;
+    color: #545454;
+    line-height: 1.6;
+}
+
+
+.shelter__subtitle {
+    font-family: 'Arial', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #4c4c4c;
+    line-height: 1.6;
+}
